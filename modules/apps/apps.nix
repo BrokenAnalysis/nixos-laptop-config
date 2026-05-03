@@ -16,6 +16,7 @@
     aria2
     curl
     openssl
+    openssh
     gnugrep
     # ── Development ────────────────────────────────────
     git
