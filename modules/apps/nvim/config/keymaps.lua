@@ -1,0 +1,15 @@
+local map = vim.keymap.set
+
+map("n", "<C-h>", "<C-w>h", { desc = "Move left" })
+map("n", "<C-l>", "<C-w>l", { desc = "Move right" })
+map("n", "<C-k>", "<C-w>k", { desc = "Move up" })
+map("n", "<C-j>", "<C-w>j", { desc = "Move down" })
+map("v", "<", "<gv", { desc = "Indent left" })
+map("v", ">", ">gv", { desc = "Indent right" })
+map("n", "<A-j>", ":m .+1<CR>==")
+map("n", "<A-k>", ":m .-2<CR>==")
+map("v", "<A-j>", ":m '>+1<CR>gv=gv")
+map("v", "<A-k>", ":m '<-2<CR>gv=gv")
+map("n", "<C-s>", ":w<CR>")
+map("i", "<C-s>", "<Esc>:w<CR>")
+map("n", "<Esc>", ":noh<CR>")
