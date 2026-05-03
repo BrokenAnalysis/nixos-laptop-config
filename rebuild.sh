@@ -3,16 +3,14 @@ set -e
 
 cd /etc/nixos
 
-# Stage all changes
+# stage changes
 git add .
 
-# Commit with timestamp if there are changes
-if ! git diff --cached --quiet; then
-  git commit -m "rebuild: $(date '+%Y-%m-%d %H:%M')"
-fi
+# commit it
+git commit -m "rebuild: $(date '+%Y-%m-%d %H:%M')"
 
 # Rebuild
 sudo nixos-rebuild switch
 
-# Push if rebuild succeeded
+# Push
 git push
