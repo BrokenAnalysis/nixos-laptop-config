@@ -7,7 +7,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
+      ./hosts/hardware-configuration.nix
       <home-manager/nixos>
       ./modules/desktop/hyprland.nix     
     ];
