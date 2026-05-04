@@ -218,6 +218,12 @@
     enable = true;
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
+    shellAliases = { 
+    anime = "ani-cli --dub";
+    nix-commit = "sudo /etc/nixos/rebuild,sh";
+    initExtra = ''
+      export ANI_CLI_DOWNLOAD_DIR="/home/broken_analysis/anime"
+      '';
   };
 
   # ── Allow unfree (Spotify etc.) ─────────────────────────────────────────────
