@@ -40,6 +40,7 @@
     ani-skip      # skip anime intros
     ffmpeg
     yt-dlp
+    anup
     # Ani-cli from master
     (ani-cli.overrideAttrs (old: {
       src = pkgs.fetchFromGitHub {
