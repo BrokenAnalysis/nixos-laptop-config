@@ -222,7 +222,7 @@
       anime = "ani-cli --dub";
       nix-commit = "sudo /etc/nixos/rebuild,sh";
     };
-    initExtra = ''
+    initContent = ''
       export ANI_CLI_DOWNLOAD_DIR="/home/broken_analysis/anime"
       '';
   };
