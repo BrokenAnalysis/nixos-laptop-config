@@ -107,6 +107,7 @@
         "$mod, Return, exec, kitty"
         "$mod, D, exec, rofi -show drun -theme ~/.config/rofi/rosepine.rasi"
         "$mod, Q, killactive"
+	"$mod, M, exec, hyprctl dispatch exit"
         "$mod, F, fullscreen"
         "$mod SHIFT, F, togglefloating"
         "$mod, H, movefocus, l"

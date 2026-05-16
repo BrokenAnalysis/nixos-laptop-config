@@ -20,6 +20,7 @@
     gnugrep
     yazi          # vim-like file browser(aesthetic)
     btop          # resource monitor
+    ly            # display manager
     # ── Development ────────────────────────────────────
     git
     github-cli
