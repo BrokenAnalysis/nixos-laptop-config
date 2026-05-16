@@ -18,6 +18,7 @@
     openssl
     openssh
     gnugrep
+    yazi          # vim-like file browser(aesthetic)
     # ── Development ────────────────────────────────────
     git
     github-cli
@@ -28,15 +29,18 @@
     rustup
     lua
     gcc
+    # LLM setup for private use
+    ollama
+    open-webui
     # ── GUI apps ───────────────────────────────────────
     obsidian
     pavucontrol   # volume control GUI
-    nautilus      # file manager (lighter than thunar, no KDE deps)
+    nautilus      # file manager 
     microsoft-edge
     steam
     # ── Media ──────────────────────────────────────────
     mpv           # video player
-    imv           # image viewer (wayland native) 
+    imv           # image viewer 
     ani-skip      # skip anime intros
     ffmpeg
     yt-dlp
@@ -52,8 +56,8 @@
     }))
   
     # ── Art ────────────────────────────────────────────
-    gimp
-    krita
+    gimp    # photo editing and other general image things
+    krita   # digital art
     # ── Fonts ──────────────────────────────────────────
     # (declared separately below for clarity)
 
