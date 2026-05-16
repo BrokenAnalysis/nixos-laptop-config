@@ -82,7 +82,7 @@
 
  services.ollama = {
    enable = true;
-   loadModels = [ "Echo" ];
+   loadModels = [ "deepseek-r1:1.5b" ];
  };
  services.open-webui = {
     enable = true;
