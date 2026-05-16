@@ -78,11 +78,11 @@
     #jack.enable = true;
  services.ollama = {
    enable = true;
-   loadModels = [ "deepseek-r1:latest" ]
+   loadModels = [ "deepseek-r1:latest" ];
  };
  services.open-webui = {
     enable = true;
-  };
+ };
     # use the example session manager (no others are packaged yet so this is enabled by default,
     # no need to redefine it in your config for now)
     #media-session.enable = true;
