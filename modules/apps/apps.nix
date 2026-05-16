@@ -19,6 +19,7 @@
     openssh
     gnugrep
     yazi          # vim-like file browser(aesthetic)
+    btop          # resource monitor
     # ── Development ────────────────────────────────────
     git
     github-cli
