@@ -31,6 +31,7 @@
     rustup
     lua
     gcc
+    zed-editor
     # LLM setup for private use
     ollama
     open-webui

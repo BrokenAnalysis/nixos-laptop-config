@@ -51,9 +51,12 @@
   services.xserver.enable = true;
 
   # Enable the KDE Plasma Desktop Environment.
-  services.displayManager.sddm.enable = true;
-  services.desktopManager.plasma6.enable = true;
+  #services.displayManager.sddm.enable = true;
+  #services.desktopManager.plasma6.enable = true;
   
+  # Ly display manager
+  services.displayManager.ly.enable = true;
+
   # Gnome keyring
   services.gnome.gnome-keyring.enable = true;
   security.pam.services.login.enableGnomeKeyring = true;
@@ -79,7 +82,7 @@
 
  services.ollama = {
    enable = true;
-   loadModels = [ "deepseek-r1:latest" ];
+   loadModels = [ "Echo" ];
  };
  services.open-webui = {
     enable = true;
