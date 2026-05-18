@@ -105,6 +105,7 @@
 
       bind = [
         "$mod, Return, exec, kitty"
+	"$mod, Return, exec, yazi"
         "$mod, D, exec, rofi -show drun -theme ~/.config/rofi/rosepine.rasi"
         "$mod, Q, killactive"
 	"$mod, M, exec, hyprctl dispatch exit"
