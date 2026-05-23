@@ -21,6 +21,7 @@
     yazi          # vim-like file browser(aesthetic)
     btop          # resource monitor
     ly            # display manager
+    hplip
     # ── Development ────────────────────────────────────
     git
     github-cli
