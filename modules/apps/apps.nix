@@ -26,7 +26,6 @@
     git
     github-cli
     lazygit       # terminal git UI
-    godot         # game engine
     podman        # docker but FOSS
     python312
     rustup
@@ -36,6 +35,10 @@
     # LLM setup for private use
     ollama
     open-webui
+    # Game Dev
+    godot
+    aseprite
+    audacity
     # ── GUI apps ───────────────────────────────────────
     obsidian
     pavucontrol   # volume control GUI
