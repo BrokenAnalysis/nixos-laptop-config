@@ -43,7 +43,6 @@
     obsidian
     pavucontrol   # volume control GUI
     nautilus      # file manager 
-    microsoft-edge
     steam
     # ── Media ──────────────────────────────────────────
     mpv           # video player
