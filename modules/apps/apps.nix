@@ -45,6 +45,7 @@
     nautilus      # file manager 
     steam
     zathura
+    insync
     # ── Media ──────────────────────────────────────────
     mpv           # video player
     imv           # image viewer 
