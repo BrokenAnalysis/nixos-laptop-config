@@ -44,6 +44,7 @@
     pavucontrol   # volume control GUI
     nautilus      # file manager 
     steam
+    zathura
     # ── Media ──────────────────────────────────────────
     mpv           # video player
     imv           # image viewer 
