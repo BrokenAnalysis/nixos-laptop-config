@@ -66,6 +66,8 @@
     # ── Art ────────────────────────────────────────────
     gimp    # photo editing and other general image things
     krita   # digital art
+    scribus
+    libreoffice
     # ── Fonts ──────────────────────────────────────────
     # (declared separately below for clarity)
 
