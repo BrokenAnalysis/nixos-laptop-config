@@ -46,6 +46,7 @@
     steam
     zathura
     insync
+    microsoft-edge
     # ── Media ──────────────────────────────────────────
     mpv           # video player
     imv           # image viewer 
